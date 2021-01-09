@@ -4,23 +4,104 @@
     min-height: 695px;
 }
 .firstDiv{
-    border: 1px solid red;
     color: white;
     min-height: 300px;
     justify-content: center;
 }
 .firstDivs{
-    border: 1px solid red;
     min-height: 50px;
     margin-top: 40px;
 }
-.inputStyle{
+/* css for search bar */
+.boxs{
+    width: 80%;
+    height: 50px;
     background-color: rgb(60,63,84);
-    border:none;  
-    border-radius: 20px;
-    width: 100%;
-    height: 40px;
+    border-radius: 30px;
+    display: flex;    
+    align-items: center;
+    padding: 20px;
 }
+.boxs > i {
+    font-size: 20px;
+    color: #777;
+}
+.boxs > input {
+    flex: 1;
+    height: 40px;
+    border: none;
+    color: white;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: rgb(60,63,84);
+}
+.boxs > a{
+    text-decoration: none;
+    border: none;  
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.boxs > a:hover{
+    text-decoration: none;
+    border: none;  
+    font-size: 20px;
+    color: rgb(214, 200, 200);
+}
+.boxs > a:focus{
+    text-decoration: none;
+    border: none;  
+    font-size: 20px;
+    color: rgb(97, 95, 95);
+}
+/* end of css search bar */
+.hoves:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 5px 5px grey;
+}
+
+.userStyle{
+    margin-top: 40px;
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+#usersStyle{
+    margin-top: 20px;
+    height: 100px;
+    color: white;
+    background-color: rgb(249,53,169);
+    border-radius: 20px;
+}
+#usersStyle > i{
+    margin-top: 20px;
+    height: 50px;
+}
+#maleStyle{
+    margin-top: 20px;
+    height: 100px;
+    color: white;
+    background-color: rgb(48,187,181);
+    border-radius: 20px;
+}
+#maleStyle > i {
+    margin-top: 20px;
+    height: 50px;
+}
+#femaleStyle{
+    margin-top: 20px;
+    height: 100px;
+    color: white;
+    background-color: rgb(121,70,193);
+    border-radius: 20px;
+}
+#femaleStyle > i {
+    margin-top: 20px;
+    height: 50px;
+}
+.userP{
+    margin-top: 20px;
+}
+
 #SecondDiv{
     background-color: rgb(247,247,255);
     border-radius: 10px;
