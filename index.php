@@ -14,7 +14,8 @@
     <body>
         <div class="container-fluid">
             <div class="row rowBd">
-                <div class="col-md-5 offset-md-1 firstDiv">
+            <div class="col-md-1"></div>
+                <div class="col-md-5 firstDiv">
                     <div class="col-md-12 firstDivs"></div>
                     <div class="col-md-12 firstDivs">
                         <h3>HELLO, <strong>EMERALD</strong></h3>
@@ -62,8 +63,33 @@
 
 
 
-                <div class="col-md-4 offset-md-1 firstDiv" id="SecondDiv">
-                    
+                <div class="col-md-5 firstDiv" id="SecondDiv">
+                    <h5 class="mt-2">All Users</h5>
+
+                    <p class="mt-2">Filter by</p>
+
+                    <div class="row">
+                        <div class="col-4 mt-2 countrySearch styleSecond">
+                            <a href="#"><i class="bi bi-search"></i></a>
+                            <input type="text" id="specificSizeInputName" placeholder="Find a User">
+                        </div>
+
+                        <div class="col-4 styleSecond">
+                            <select class="form-select mt-2" style="background-color: rgb(226,227,236);" aria-label="Default select example">
+                                <option selected>Select Country</option>
+                                <option value="1">AU</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                        <div class="col-4 styleSecond">
+                            <div class="form-check mt-3 form-switch">
+                                <input class="form-check-input" style="background-color: rgb(48,187,181);" type="checkbox" id="flexSwitchCheckChecked" checked>
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Show Country</label>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>

@@ -106,4 +106,52 @@
     background-color: rgb(247,247,255);
     border-radius: 10px;
     color: black;
+    margin: 10px;
 }
+.styleSecond{
+    border: 1px solid red;
+}
+/* css for second search bar */
+.countrySearch{
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    display: flex;    
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(226,227,236);
+}
+.countrySearch > i {
+    font-size: 20px;
+    color: rgb(15, 15, 15);
+}
+.countrySearch > input {
+    width: 20px;
+    flex: 1;
+    height: 20px;
+    border: none;
+    color:black;
+    outline: none;
+    font-size: 18px;
+    padding-left: 10px;
+    background-color: rgb(226,227,236);
+}
+.countrySearch > a{
+    text-decoration: none;
+    border: none;  
+    font-size: 20px;
+    color: rgb(12, 12, 12);
+}
+.countrySearch > a:hover{
+    text-decoration: none;
+    border: none;  
+    font-size: 20px;
+    color: rgb(214, 200, 200);
+}
+.countrySearch > a:focus{
+    text-decoration: none;
+    border: none;  
+    font-size: 20px;
+    color: rgb(97, 95, 95);
+}
+/* end of css second search bar */
