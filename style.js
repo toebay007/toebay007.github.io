@@ -43,7 +43,7 @@ $("#resultss").empty();
  
   selectedNat =  $("#nationality :selected").text();
 
-  url = "https://randomuser.me/api/?results=10&gender="+linkGender+"&nat="+selectedNat;
+  url = "https://randomuser.me/api/?results=3&gender="+linkGender+"&nat="+selectedNat;
 
   fetchInfo(url);
 
